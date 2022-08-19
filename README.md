@@ -1,0 +1,3 @@
+- build dockerfile คำสั่ง >> "docker build -t my-golang-app ."
+- run container คำสั่ง >> "docker run -itd --rm --name my-running-app -p 5000:8090 my-golang-app"
+- หลังจากอาจารย์ go run main.go แล้วให้ทดสอบเข้าหน้า web โดยเข้าดังน ี้ http://ip address VM:8090/register.php --> ตัวอย่าง http://192.168.50.154:8090/index.html ก็จะโชว์ข้อมูลหน้า web ขึ้นมา
